@@ -646,7 +646,7 @@ a {
 
 .product {
   width: 345px;
-  padding: 25px 20px 15px;
+  padding: 0 20px 15px;
 }
 
 .product-content {
@@ -939,7 +939,7 @@ a {
 
   .product {
     width: 345px;
-    padding: 25px 20px 15px;
+    padding: 0 20px 15px;
   }
 
   .container-img-shop {
@@ -954,7 +954,7 @@ a {
 
   .footer {
     max-width: 1200px;
-    margin-top: 65px;
+    margin-top: 55px;
     padding-right: 15px;
     padding-bottom: 40px;
     padding-left: 15px;
@@ -962,7 +962,7 @@ a {
 
   .socials-list {
     max-width: 1170px;
-    margin-bottom: 70px;
+    margin-bottom: 55px;
   }
 
   .popup {
@@ -1147,7 +1147,7 @@ a {
   }
 
   .footer {
-    margin-top: 50px;
+    margin-top: 45px;
     padding-right: 35px;
     padding-bottom: 35px;
     padding-left: 35px;
@@ -1349,7 +1349,7 @@ a {
   }
 
   .footer {
-    margin-top: 45px;
+    margin-top: 40px;
     padding-right: 15px;
     padding-bottom: 40px;
     padding-left: 15px;
