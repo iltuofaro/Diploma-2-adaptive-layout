@@ -730,9 +730,8 @@ a {
   margin-left: auto;
 }
 
-.social {
-  background-color: #f4f7f6;
-}
+/*.social {
+}*/
 
 .socials-list {
   display: flex;
@@ -742,6 +741,7 @@ a {
   padding-bottom: 30px;
   padding-left: 0;
   box-sizing: border-box;
+  background-color: #f4f7f6;
 }
 
 .socials-list-item:nth-child(n+2) {
