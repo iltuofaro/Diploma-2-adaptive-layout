@@ -54,7 +54,7 @@ a {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 3;
+  z-index: 888;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -244,7 +244,7 @@ a {
   padding-left: 0;
 }
 
-.menu-list-item {
+.menu-list-item:nth-child(n+2) {
   margin-left: 35px;
 }
 
@@ -449,10 +449,11 @@ a {
 }
 
 
-/* что я делаю не так уже какой раз?.. */
+/* что я делаю не так?.. */
 /* отступ со второго элемента; 
 но почему берутся все? 
-у них один уровень вложенности new-post */
+у них один уровень вложенности new-post
+дефолтные стили просмотрела, ничего не нашла */
 
 .new-post:nth-child(n + 2) {
   display: flex;
@@ -729,6 +730,10 @@ a {
   margin-left: auto;
 }
 
+.social {
+  background-color: #f4f7f6;
+}
+
 .socials-list {
   display: flex;
   justify-content: center;
@@ -736,10 +741,10 @@ a {
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 0;
-  background-color: #f4f7f6;
+  box-sizing: border-box;
 }
 
-.socials-list-item {
+.socials-list-item:nth-child(n+2) {
   margin-left: 20px;
 }
 
