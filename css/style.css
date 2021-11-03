@@ -462,11 +462,10 @@ a {
 
 .new-post {
   display: flex;
-  margin-top: 20px;
 }
 
-.new-post:nth-of-type(1) {
-  margin-top: 0;
+.new-post:nth-of-type(n + 2) {
+  margin-top: 20px;
 }
 
 .new-post-img {
